@@ -1,0 +1,8 @@
+mods/starting_loadouts/files/seducer/ragdoll/torso.png
+mods/starting_loadouts/files/seducer/ragdoll/right_thigh.png
+mods/starting_loadouts/files/seducer/ragdoll/right_arm.png
+mods/starting_loadouts/files/seducer/ragdoll/right_hand.png
+mods/starting_loadouts/files/seducer/ragdoll/left_thigh.png
+mods/starting_loadouts/files/seducer/ragdoll/left_arm.png
+mods/starting_loadouts/files/seducer/ragdoll/left_hand.png
+mods/starting_loadouts/files/seducer/ragdoll/head.png
