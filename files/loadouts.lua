@@ -8,18 +8,22 @@ loadout_list =
 		cape_color_edge = 0xff3c696a,
 		items = 
 		{
-			"mods/starting_loadouts/files/summoner/wands/wand_1.xml",
-			"mods/starting_loadouts/files/summoner/wands/wand_2.xml",
+			"mods/valentinesday2025/files/seducer/wands/wand_1.xml",
+			"mods/valentinesday2025/files/seducer/wands/wand_2.xml",
 			"data/entities/items/pickup/potion_water.xml",
-			{ 
-			options = { "data/entities/items/pickup/egg_fire.xml", "data/entities/items/pickup/egg_red.xml", "data/entities/items/pickup/egg_monster.xml", "data/entities/items/pickup/egg_slime.xml" },
-			amount = 3,
-			},
+			"mods/valentinesday2025/files/seducer/potion_magic_liquid_charm.xml",
+			-- { 
+			-- options = { "data/entities/items/pickup/egg_fire.xml", "data/entities/items/pickup/egg_red.xml", "data/entities/items/pickup/egg_monster.xml", "data/entities/items/pickup/egg_slime.xml" },
+			-- amount = 3,
+			-- },
 		},
 		perks =
 		{
-			"PLAGUE_RATS",
-			"HOMUNCULUS",
+			"SAVING_GRACE",
+			"REMOVE_FOG_OF_WAR",
+			"HEARTS_MORE_EXTRA_HP",
+			"ADVENTURER",
+			"GENOME_MORE_LOVE",
 		},
 	}
 }

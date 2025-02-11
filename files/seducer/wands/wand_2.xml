@@ -2,7 +2,7 @@
 
    <AbilityComponent
         _enabled="1" 
-        sprite_file="mods/starting_loadouts/files/wand_gfx/wand_2.xml"
+        sprite_file="mods/valentinesday2025/data/items_gfx/wand2.png"
         swim_propel_amount="0"
         ui_name=""
         drop_as_item_on_death="0"
@@ -31,7 +31,7 @@
 
    <Base file="data/entities/base_item.xml" >
         <ItemComponent
-            item_name="eldritch_wand"
+            item_name="seducer_wand"
             remove_on_death="1"
             collect_nondefault_actions="1" >
         </ItemComponent>
@@ -40,7 +40,7 @@
    <LuaComponent 
 		execute_on_added="1"
 		remove_after_executed="1"
-		script_source_file="mods/starting_loadouts/files/eldritch/wands/wand_2_setup.lua"
+		script_source_file="mods/valentinesday2025/files/seducer/wands/wand_2_setup.lua"
 		>
 	</LuaComponent>
 

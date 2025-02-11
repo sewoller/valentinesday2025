@@ -22,14 +22,14 @@ local ability_comp = EntityGetFirstComponent( entity_id, "AbilityComponent" )
 
 local wand = { }
 wand.name = {"eldritch_wand"}
-wand.deck_capacity = 1
+wand.deck_capacity = 5
 wand.actions_per_round = 1
 wand.reload_time = {85,105}
 wand.shuffle_deck_when_empty = 0
 wand.fire_rate_wait = {65,85}
 wand.spread_degrees = 0
 wand.speed_multiplier = 1
-wand.mana_charge_speed = {10,20}
+wand.mana_charge_speed = {60,120}
 wand.mana_max = 200
 
 local mana_max = wand.mana_max
@@ -50,4 +50,10 @@ ComponentObjectSetValue( ability_comp, "gunaction_config", "speed_multiplier", w
 ComponentSetValue( ability_comp, "mana_max", mana_max )
 ComponentSetValue( ability_comp, "mana", mana_max )
 
-AddGunAction( entity_id, "TENTACLE_PORTAL" )
+AddGunAction( entity_id, "REGENERATION_FIELD" )
+AddGunAction( entity_id, "REGENERATION_FIELD" )
+AddGunAction( entity_id, "REGENERATION_FIELD" )
+AddGunAction( entity_id, "REGENERATION_FIELD" )
+AddGunAction( entity_id, "REGENERATION_FIELD" )
+
+
